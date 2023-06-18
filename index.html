@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="./js/scripts.js"></script>
+  <title>Favorite Things</title>
+</head>
+<body>
+  <div class="error">
+    
+  </div>
+  <div class="container">
+    <h1>I want to know your favorite things!</h1>
+    <p>
+      This website will store your favorite things in an invisible JavaScript thing called an array!
+      PLEASE separate your items using <strong>commas!</strong>
+    </p>
+    <form>
+      <textarea name="things-list" id="things-list" cols="30" rows="10" placeholder="Enter your favorite things here!"></textarea>
+      <button type="submit" id="submit-list">Submit</button>
+    </form>
+  </div>
+  <div class="hidden" id="ul-div">
+    <button type="button" id="clear-list">Re-enter Form</button>
+  </div>
+</body>
+</html>
